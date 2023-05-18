@@ -18,3 +18,4 @@ Note that adding a user to the docker group grants them root-level privileges to
 sudo usermod -aG docker $USER
 newgroup docker
 source ~/.bashrc
+docker build .
